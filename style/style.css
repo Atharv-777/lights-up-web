@@ -37,7 +37,7 @@ body, html{
     font-size: 25px;
 
     @media screen and (max-width: 600px){
-      font-size:17px
+      font-size:17px  
     }
 }
 
@@ -45,7 +45,6 @@ body, html{
     from {
       text-shadow: 5px 0 10px #fff, 0 0 20px #24001d, 0 0 30px #24001d, 0 0 40px #24001d, 0 0 50px #24001d, 0 0 60px #0034ff, 0 0 70px #0034ff;
     }
-    
     to {
       text-shadow: 0 0 20px #790940, 0 0 30px #790940, 0 0 40px #790940, 0 0 50px #790940, 0 0 60px #790940, 0 0 70px #790940, 0 0 80px #790940;
     }
@@ -66,8 +65,36 @@ body, html{
     from {
       background: #0033ff7a;
     }
-    
     to {
       background: #790940;
     }
   }
+
+.downloadBtn{
+  width: auto;
+  display: inline-block;
+  text-align: center;
+  /* background: rgb(36,0,29); */
+  background: linear-gradient(158deg, rgba(36,0,29,1) 0%, rgba(121,9,64,1) 48%, rgba(0,52,255,1) 100%);
+  color: white;
+  padding: 10px 30px;
+  border-radius: 6px;
+  visibility: hidden;
+  outline: none;
+  border: none;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.downloadBtn:hover {
+  background: linear-gradient(-158deg, rgba(36,0,29,1) 0%, rgba(121,9,64,1) 48%, rgba(0,52,255,1) 100%);
+  /* background: red; */
+}
+
+.pageFooter{
+  width: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(34, 34, 34, 0.322);
+  color: white;
+}
