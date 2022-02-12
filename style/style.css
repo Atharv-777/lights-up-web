@@ -48,14 +48,14 @@ body, html{
     }
   }
 
-  .shadowContainer{
+  .shadowContainer{   
       margin-top: 10%;
   }
   .shadow{
       width: 70%;
-      height: 7px;
+      height: 3px;
       border-radius: 100%;
-      opacity: 0.4;
+      opacity: 0.2;
       display: inline-block;
   }
 
