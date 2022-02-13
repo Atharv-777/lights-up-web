@@ -27,7 +27,7 @@ bulb.onclick = function(){
         on = true;
     }
     else{
-        bulb.style.background = 'rgb(46, 46, 45)';
+        bulb.style.background = 'rgb(19, 19, 19)';
         changeStyle('rgb(90, 90, 90)', 'rgb(19, 19, 19)', 'none', 'block', 'none', 'hidden');
         on = false
     }
